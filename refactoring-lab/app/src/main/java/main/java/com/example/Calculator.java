@@ -1,4 +1,4 @@
-package com.example;
+package main.java.com.example;
 
 public class Calculator {
     public double calculateSumProductRatio(double num1, double num2) {

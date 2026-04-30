@@ -1,4 +1,4 @@
-package com.example;
+package main.java.com.example;
 
 import java.util.List;
 
@@ -40,7 +40,8 @@ public class OrderProcessor {
     private void printItems(List<Item> items) {
         System.out.println("Items:");
         for (Item item : items) {
-            System.out.println("  - " + item.getName() + ": " + item.getQuantity() + " x $" + item.getPrice() + " = $" + (item.getQuantity() * item.getPrice()));
+            System.out.println("  - " + item.getName() + ": " + item.getQuantity() + " x $" + item.getPrice() + " = $"
+                    + (item.getQuantity() * item.getPrice()));
         }
     }
 }
